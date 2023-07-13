@@ -1,0 +1,38 @@
+Create a package called Tetris, include all classes inside the package. 
+Create a class called Shape
+	Define an enumeration called Tetrominoes to represent different shapes
+	Create instance variables for the current shape and its coordinates
+	Implement a constructor that initializes the coordinates and sets the shape to NoShape
+	Implement a method to set the shape of the current piece
+	Create a table of coordinates for each shape
+	Implement methods to set the X and Y coordinates of a shape	
+	Implement methods to get the X and Y coordinates of a shape
+	Implement a method to get the current shape
+	Implement a method to set a random shape for the current piece
+	Implement methods to calculate the minimum X and Y values for the current piece
+	Implement methods to rotate the current shape left and right with keyboard
+Create a class called Board
+	Define constants for the board width and height
+	Create instance variables for the timer, game state, score, current position, current piece, the board, and colors
+	Implement a constructor that initializes the board and sets up the key listener
+	Implement methods to calculate the square width and height
+	Implement a method to get the shape at a given position on the board
+	Implement a method to start the game
+	Implement a method to pause the game
+	Override the paint component method to draw the board and the current piece
+	Implement a method to update the game state and repaint the board
+	Implement a method to drop the current piece down to the lowest possible position
+	Implement a method to move the current piece one line down
+	Implement a method to clear the board
+	Implement a method to handle the piece being dropped
+	Implement a method to generate a new random piece
+	Implement a method to check if a move is valid and update the current piece's position
+	Implement a method to remove full lines from the board
+	Implement a method to draw a square on the board
+	Implement a timer listener to update the game cycle
+	Implement a method to handle keyboard input
+Create a class called Tetris, which extends JFrame
+	Create a status bar label
+	Implement a constructor that initializes the UI and sets up the game board
+	Implement a method to get the status bar label
+	Implement the main method to create an instance of Tetris and make it visible
